@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE02B7171FB850BF00EE7E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02B7161FB850BF00EE7E33 /* AppDelegate.swift */; };
+		AE02B7191FB850BF00EE7E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02B7181FB850BF00EE7E33 /* ViewController.swift */; };
+		AE02B71B1FB850BF00EE7E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE02B71A1FB850BF00EE7E33 /* Assets.xcassets */; };
+		AE02B71E1FB850BF00EE7E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE02B71C1FB850BF00EE7E33 /* Main.storyboard */; };
+		AE02B72A1FB850BF00EE7E33 /* YHAutoBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02B7291FB850BF00EE7E33 /* YHAutoBagTests.swift */; };
+		AE02B7351FB850BF00EE7E33 /* YHAutoBagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02B7341FB850BF00EE7E33 /* YHAutoBagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE02B7261FB850BF00EE7E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE02B70B1FB850BF00EE7E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE02B7121FB850BF00EE7E33;
+			remoteInfo = YHAutoBag;
+		};
+		AE02B7311FB850BF00EE7E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE02B70B1FB850BF00EE7E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE02B7121FB850BF00EE7E33;
+			remoteInfo = YHAutoBag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE02B7131FB850BF00EE7E33 /* YHAutoBag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHAutoBag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE02B7161FB850BF00EE7E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE02B7181FB850BF00EE7E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE02B71A1FB850BF00EE7E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE02B71D1FB850BF00EE7E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE02B71F1FB850BF00EE7E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE02B7201FB850BF00EE7E33 /* YHAutoBag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YHAutoBag.entitlements; sourceTree = "<group>"; };
+		AE02B7251FB850BF00EE7E33 /* YHAutoBagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHAutoBagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE02B7291FB850BF00EE7E33 /* YHAutoBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHAutoBagTests.swift; sourceTree = "<group>"; };
+		AE02B72B1FB850BF00EE7E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE02B7301FB850BF00EE7E33 /* YHAutoBagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHAutoBagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE02B7341FB850BF00EE7E33 /* YHAutoBagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHAutoBagUITests.swift; sourceTree = "<group>"; };
+		AE02B7361FB850BF00EE7E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE02B7101FB850BF00EE7E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE02B7221FB850BF00EE7E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE02B72D1FB850BF00EE7E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE02B70A1FB850BF00EE7E33 = {
+			isa = PBXGroup;
+			children = (
+				AE02B7151FB850BF00EE7E33 /* YHAutoBag */,
+				AE02B7281FB850BF00EE7E33 /* YHAutoBagTests */,
+				AE02B7331FB850BF00EE7E33 /* YHAutoBagUITests */,
+				AE02B7141FB850BF00EE7E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE02B7141FB850BF00EE7E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE02B7131FB850BF00EE7E33 /* YHAutoBag.app */,
+				AE02B7251FB850BF00EE7E33 /* YHAutoBagTests.xctest */,
+				AE02B7301FB850BF00EE7E33 /* YHAutoBagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE02B7151FB850BF00EE7E33 /* YHAutoBag */ = {
+			isa = PBXGroup;
+			children = (
+				AE02B7161FB850BF00EE7E33 /* AppDelegate.swift */,
+				AE02B7181FB850BF00EE7E33 /* ViewController.swift */,
+				AE02B71A1FB850BF00EE7E33 /* Assets.xcassets */,
+				AE02B71C1FB850BF00EE7E33 /* Main.storyboard */,
+				AE02B71F1FB850BF00EE7E33 /* Info.plist */,
+				AE02B7201FB850BF00EE7E33 /* YHAutoBag.entitlements */,
+			);
+			path = YHAutoBag;
+			sourceTree = "<group>";
+		};
+		AE02B7281FB850BF00EE7E33 /* YHAutoBagTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE02B7291FB850BF00EE7E33 /* YHAutoBagTests.swift */,
+				AE02B72B1FB850BF00EE7E33 /* Info.plist */,
+			);
+			path = YHAutoBagTests;
+			sourceTree = "<group>";
+		};
+		AE02B7331FB850BF00EE7E33 /* YHAutoBagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE02B7341FB850BF00EE7E33 /* YHAutoBagUITests.swift */,
+				AE02B7361FB850BF00EE7E33 /* Info.plist */,
+			);
+			path = YHAutoBagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE02B7121FB850BF00EE7E33 /* YHAutoBag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE02B7391FB850BF00EE7E33 /* Build configuration list for PBXNativeTarget "YHAutoBag" */;
+			buildPhases = (
+				AE02B70F1FB850BF00EE7E33 /* Sources */,
+				AE02B7101FB850BF00EE7E33 /* Frameworks */,
+				AE02B7111FB850BF00EE7E33 /* Resources */,
+				AE02B77E1FB8652E00EE7E33 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHAutoBag;
+			productName = YHAutoBag;
+			productReference = AE02B7131FB850BF00EE7E33 /* YHAutoBag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE02B7241FB850BF00EE7E33 /* YHAutoBagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE02B73C1FB850BF00EE7E33 /* Build configuration list for PBXNativeTarget "YHAutoBagTests" */;
+			buildPhases = (
+				AE02B7211FB850BF00EE7E33 /* Sources */,
+				AE02B7221FB850BF00EE7E33 /* Frameworks */,
+				AE02B7231FB850BF00EE7E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE02B7271FB850BF00EE7E33 /* PBXTargetDependency */,
+			);
+			name = YHAutoBagTests;
+			productName = YHAutoBagTests;
+			productReference = AE02B7251FB850BF00EE7E33 /* YHAutoBagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE02B72F1FB850BF00EE7E33 /* YHAutoBagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE02B73F1FB850BF00EE7E33 /* Build configuration list for PBXNativeTarget "YHAutoBagUITests" */;
+			buildPhases = (
+				AE02B72C1FB850BF00EE7E33 /* Sources */,
+				AE02B72D1FB850BF00EE7E33 /* Frameworks */,
+				AE02B72E1FB850BF00EE7E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE02B7321FB850BF00EE7E33 /* PBXTargetDependency */,
+			);
+			name = YHAutoBagUITests;
+			productName = YHAutoBagUITests;
+			productReference = AE02B7301FB850BF00EE7E33 /* YHAutoBagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE02B70B1FB850BF00EE7E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = MasterFly;
+				TargetAttributes = {
+					AE02B7121FB850BF00EE7E33 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AE02B7241FB850BF00EE7E33 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE02B7121FB850BF00EE7E33;
+					};
+					AE02B72F1FB850BF00EE7E33 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE02B7121FB850BF00EE7E33;
+					};
+				};
+			};
+			buildConfigurationList = AE02B70E1FB850BF00EE7E33 /* Build configuration list for PBXProject "YHAutoBag" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE02B70A1FB850BF00EE7E33;
+			productRefGroup = AE02B7141FB850BF00EE7E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE02B7121FB850BF00EE7E33 /* YHAutoBag */,
+				AE02B7241FB850BF00EE7E33 /* YHAutoBagTests */,
+				AE02B72F1FB850BF00EE7E33 /* YHAutoBagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE02B7111FB850BF00EE7E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE02B71B1FB850BF00EE7E33 /* Assets.xcassets in Resources */,
+				AE02B71E1FB850BF00EE7E33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE02B7231FB850BF00EE7E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE02B72E1FB850BF00EE7E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE02B77E1FB8652E00EE7E33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\ncd ~/Documents/IOS/HuangDou/YHAutoBag/\ntouch aa.txt";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE02B70F1FB850BF00EE7E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE02B7191FB850BF00EE7E33 /* ViewController.swift in Sources */,
+				AE02B7171FB850BF00EE7E33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE02B7211FB850BF00EE7E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE02B72A1FB850BF00EE7E33 /* YHAutoBagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE02B72C1FB850BF00EE7E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE02B7351FB850BF00EE7E33 /* YHAutoBagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE02B7271FB850BF00EE7E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE02B7121FB850BF00EE7E33 /* YHAutoBag */;
+			targetProxy = AE02B7261FB850BF00EE7E33 /* PBXContainerItemProxy */;
+		};
+		AE02B7321FB850BF00EE7E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE02B7121FB850BF00EE7E33 /* YHAutoBag */;
+			targetProxy = AE02B7311FB850BF00EE7E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE02B71C1FB850BF00EE7E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE02B71D1FB850BF00EE7E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE02B7371FB850BF00EE7E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE02B7381FB850BF00EE7E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AE02B73A1FB850BF00EE7E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YHAutoBag/YHAutoBag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHAutoBag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHAutoBag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AE02B73B1FB850BF00EE7E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YHAutoBag/YHAutoBag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHAutoBag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHAutoBag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		AE02B73D1FB850BF00EE7E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHAutoBagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHAutoBagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHAutoBag.app/Contents/MacOS/YHAutoBag";
+			};
+			name = Debug;
+		};
+		AE02B73E1FB850BF00EE7E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHAutoBagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHAutoBagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHAutoBag.app/Contents/MacOS/YHAutoBag";
+			};
+			name = Release;
+		};
+		AE02B7401FB850BF00EE7E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHAutoBagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHAutoBagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = YHAutoBag;
+			};
+			name = Debug;
+		};
+		AE02B7411FB850BF00EE7E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E4LSSERGY;
+				INFOPLIST_FILE = YHAutoBagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MasterFly.YHAutoBagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = YHAutoBag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE02B70E1FB850BF00EE7E33 /* Build configuration list for PBXProject "YHAutoBag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE02B7371FB850BF00EE7E33 /* Debug */,
+				AE02B7381FB850BF00EE7E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE02B7391FB850BF00EE7E33 /* Build configuration list for PBXNativeTarget "YHAutoBag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE02B73A1FB850BF00EE7E33 /* Debug */,
+				AE02B73B1FB850BF00EE7E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE02B73C1FB850BF00EE7E33 /* Build configuration list for PBXNativeTarget "YHAutoBagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE02B73D1FB850BF00EE7E33 /* Debug */,
+				AE02B73E1FB850BF00EE7E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE02B73F1FB850BF00EE7E33 /* Build configuration list for PBXNativeTarget "YHAutoBagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE02B7401FB850BF00EE7E33 /* Debug */,
+				AE02B7411FB850BF00EE7E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE02B70B1FB850BF00EE7E33 /* Project object */;
+}
